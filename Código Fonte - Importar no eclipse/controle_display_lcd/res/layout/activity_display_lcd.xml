@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" 
+	tools:context="com.example.controle_remoto_app.ControleActivity">
+	
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:src="@drawable/logo" />
+	
+    <LinearLayout 
+        		android:id="@+id/linearLayoutUm" 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF"
+				android:paddingTop="150px">
+	<ImageButton
+	    
+        android:id="@+id/btAmarelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/amarelo"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton
+	    
+        android:id="@+id/btAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/azul"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton
+	    
+        android:id="@+id/btBranco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/branco"/>
+		</LinearLayout>
+
+    <LinearLayout 
+        		android:id="@+id/linearLayoutDois"
+        		android:paddingTop="50px" 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF" 
+				android:gravity="center_horizontal">
+	<ImageButton
+        android:id="@+id/btLaranja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/laranja"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton
+        android:id="@+id/btPreto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/preto"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton
+        android:id="@+id/btRosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rosa"/>
+		</LinearLayout>
+    <LinearLayout 
+        		android:id="@+id/linearLayoutTres"
+        		android:paddingTop="50px" 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF" 
+				android:gravity="center_horizontal">
+	<ImageButton
+        android:id="@+id/btRoxo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roxo"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton
+        android:id="@+id/btVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verde"/>
+	<TextView 	
+	    	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:paddingRight="50px" />
+	<ImageButton	    
+        android:id="@+id/btVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vermelho"/>
+		</LinearLayout>		
+</LinearLayout>
